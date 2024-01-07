@@ -18,8 +18,6 @@ config();
 /** appliation port */
 const port = process.env.PORT || 8080;
 
-connect();
-
 /** routes */
 app.use("/api", router); /** apis */
 
